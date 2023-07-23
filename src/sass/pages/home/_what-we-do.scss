@@ -1,0 +1,102 @@
+.service {
+  padding: 80px 0;
+
+  &__pre-heading {
+    color: $primary-grey;
+    font-family: $secondary-font-stack;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+  }
+
+  &__heading {
+    margin-bottom: 24px;
+    font-family: $secondary-font-stack;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.63;
+  }
+
+  &__filters-list {
+    display: flex;
+    gap: 76px;
+    margin-bottom: 110px;
+  }
+
+  &__filters-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 206px;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 4.86;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $green;
+    border: 5px solid $green;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: color 250ms $timing-function,
+      border-color 250ms $timing-function;
+
+    &_active {
+      color: $green;
+      background-color: $white;
+    }
+
+    &:hover {
+      color: $green;
+      background-color: $white;
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 448px);
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    gap: 22px;
+    padding: 24px;
+    background-color: $white;
+    border-radius: 60px 0px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+    transition: color 250ms $timing-function,
+      background-color 250ms $timing-function;
+
+    svg {
+      flex-shrink: 0;
+      fill: currentColor;
+    }
+
+    &:hover {
+      color: $white;
+      background-color: $brown;
+    }
+
+    &:hover .service__description {
+      color: $white;
+    }
+  }
+
+  &__post-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.55;
+  }
+
+  &__description {
+    color: $primary-grey;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: -0.18px;
+    transition: color 250ms $timing-function;
+  }
+}
