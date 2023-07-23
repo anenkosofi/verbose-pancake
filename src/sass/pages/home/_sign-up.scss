@@ -1,0 +1,98 @@
+.sign-up {
+  padding: 80px 0 97px;
+
+  &__heading {
+    position: relative;
+    margin-bottom: 77px;
+    font-family: $secondary-font-stack;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 0.58;
+    letter-spacing: 3.84px;
+    text-align: center;
+    text-transform: uppercase;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -37px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      width: 461px;
+      height: 1px;
+      background-color: $tertiary-grey;
+    }
+  }
+
+  &__description {
+    max-width: 647px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+    color: $primary-grey;
+    font-weight: 400;
+    line-height: 1.56;
+    text-align: center;
+  }
+
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 58px;
+    max-width: 772px;
+    margin: 0 auto;
+  }
+
+  &__field {
+    width: 317px;
+
+    &:nth-child(3) {
+      width: 100%;
+    }
+  }
+
+  &__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  &__input {
+    width: 100%;
+    height: 48px;
+    padding: 8px 28px;
+    font-family: $quaternary-font-stack;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 3.06;
+    color: $primary-dark;
+    background-color: $secondary-grey;
+    border: none;
+    border-radius: 20px 0px;
+    outline: none;
+
+    &::placeholder {
+      color: $primary-grey;
+      font-family: $quaternary-font-stack;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 3.06;
+    }
+  }
+
+  &__button {
+    width: 180px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 0px 0px 20px 0px;
+    text-transform: uppercase;
+  }
+}

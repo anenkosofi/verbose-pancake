@@ -7,14 +7,16 @@
   }
 
   &__logo {
-    width: 150px;
-    height: 46px;
+    img {
+      width: 150px;
+      height: 46px;
+    }
   }
 
   &__nav {
     position: sticky;
     margin-left: auto;
-    padding: 24px 0;
+    padding: 36px 0;
     background-color: $white;
   }
 
