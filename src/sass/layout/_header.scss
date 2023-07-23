@@ -1,5 +1,4 @@
 .header {
-  padding: 24px 0;
   background-color: $white;
 
   &__container {
@@ -13,7 +12,9 @@
   }
 
   &__nav {
+    position: sticky;
     margin-left: auto;
+    padding: 24px 0;
     background-color: $white;
   }
 

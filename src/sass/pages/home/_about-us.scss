@@ -1,0 +1,143 @@
+.about {
+  padding: 80px 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 198px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__thumb {
+    position: relative;
+    width: 710px;
+    height: 710px;
+    border-radius: 140px 0px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: -32px;
+      left: -36px;
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 2px solid $brown;
+      border-radius: 140px 0px;
+      z-index: 1;
+    }
+  }
+
+  &__picture {
+    position: relative;
+    width: 100%;
+    border-radius: 140px 0px;
+    z-index: 2;
+  }
+
+  &__description {
+    width: 544px;
+  }
+
+  &__pre-heading {
+    margin-bottom: 59px;
+    color: $primary-grey;
+    font-family: $secondary-font-stack;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  &__heading {
+    font-family: $secondary-font-stack;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.19;
+  }
+
+  &__overview {
+    margin-bottom: 45px;
+    color: $primary-grey;
+    font-weight: 400;
+    line-height: 1.67;
+  }
+
+  &__button {
+    width: 142px;
+    height: 42px;
+    font-size: 16px;
+    line-height: 4.88;
+    text-transform: uppercase;
+  }
+}
+
+.success {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__number {
+    font-size: 288px;
+    font-weight: 700;
+    letter-spacing: -2.88px;
+    color: transparent;
+    background-image: url('../assets/twenty.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__description {
+    margin-top: -36px;
+    margin-bottom: 36px;
+    font-family: $secondary-font-stack;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 2px;
+  }
+
+  &__button {
+    width: 175px;
+    height: 44px;
+  }
+
+  &__thumb {
+    position: relative;
+    width: 680px;
+    height: 712px;
+    border-radius: 140px 0px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 28px;
+      left: 32px;
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: 140px 0px;
+      border: 2px solid $brown;
+    }
+  }
+
+  &__picture {
+    position: relative;
+    width: 100%;
+    border-radius: 140px 0px;
+    z-index: 2;
+  }
+}
