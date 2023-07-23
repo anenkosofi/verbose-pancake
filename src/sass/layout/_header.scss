@@ -1,5 +1,8 @@
 .header {
+  position: sticky;
+  top: 0;
   background-color: $white;
+  z-index: 3;
 
   &__container {
     display: flex;
@@ -14,9 +17,8 @@
   }
 
   &__nav {
-    position: sticky;
     margin-left: auto;
-    padding: 36px 0;
+    padding: 24px 0;
     background-color: $white;
   }
 
@@ -53,5 +55,21 @@
     width: 100px;
     height: 32px;
     margin-left: 84px;
+  }
+
+  &__progress-bar {
+    position: relative;
+    width: 100%;
+    height: 4px;
+    background-color: $secondary-grey;
+  }
+
+  &__progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: $green;
   }
 }

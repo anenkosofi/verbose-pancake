@@ -45,6 +45,7 @@
   }
 
   &__field {
+    position: relative;
     width: 317px;
 
     &:nth-child(3) {
@@ -86,6 +87,16 @@
       font-weight: 500;
       line-height: 3.06;
     }
+  }
+
+  &__error {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $red;
   }
 
   &__button {

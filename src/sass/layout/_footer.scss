@@ -100,15 +100,15 @@
 
   &__bottom-content {
     padding: 15px 0 18px;
+  }
 
-    p {
-      color: $primary-grey;
-      font-weight: 400;
-      line-height: normal;
-      text-align: center;
-    }
+  &__rights {
+    color: $primary-grey;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
 
-    span {
+    &_colored {
       color: $green;
     }
   }
