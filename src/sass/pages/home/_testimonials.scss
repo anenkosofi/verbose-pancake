@@ -1,0 +1,135 @@
+.testimonials {
+  padding: 133px 0 245px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__pre-heading {
+    margin-bottom: 3px;
+    color: $primary-grey;
+    font-family: $secondary-font-stack;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__heading {
+    margin-bottom: 4px;
+    font-family: $secondary-font-stack;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+  }
+
+  &__control {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    margin-left: auto;
+    margin-bottom: 85px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    color: $primary-grey;
+    background-color: $white;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: color 250ms $timing-function,
+      background-color 250ms $timing-function;
+
+    &_right {
+      svg {
+        transform: rotateZ(180deg);
+      }
+    }
+
+    &:hover {
+      color: $white;
+      background-color: $green;
+    }
+
+    svg {
+      fill: currentColor;
+    }
+  }
+
+  &__comments {
+    width: 100%;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    position: relative;
+    width: 570px;
+    padding: 41px 38px 60px 99px;
+    background-color: $white;
+    border-radius: 70px 0px;
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+  }
+
+  &__thumb {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 130px;
+    height: 130px;
+    border-radius: 35px 0px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 35px 0px;
+    }
+  }
+
+  &__quote-mark {
+    position: absolute;
+    top: 12px;
+    right: 24px;
+    font-family: $tertiary-font-stack;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: normal;
+    color: $brown;
+  }
+
+  &__label {
+    margin-bottom: 8px;
+    color: $primary-grey;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+
+    &_bold {
+      color: $primary-dark;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+
+  &__description {
+    color: $primary-grey;
+    font-weight: 400;
+    line-height: 1.56;
+  }
+}

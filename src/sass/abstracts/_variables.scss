@@ -1,7 +1,16 @@
+@font-face {
+  font-family: 'Basic Sans';
+  font-display: swap;
+  src: local('O'), url('../fonts/Basic-Sans-SF.woff') format('woff'),
+    url('../fonts/Basic-Sans-SF.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600&display=swap');
 
 $primary-font-stack: 'Open Sans', sans-serif;
 $secondary-font-stack: 'Poppins', sans-serif;
+$tertiary-font-stack: 'Basic Sans', sans-serif;
 
 $white: #ffffff;
 $primary-dark: #212121;
