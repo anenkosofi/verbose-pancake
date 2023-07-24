@@ -1,8 +1,9 @@
-import './js/showLoader';
-import './js/closeTab';
+import './js/show-loader';
+import './js/close-tab';
 import './js/progress-bar';
-import './js/getPosts';
-import './js/dragAndDrop';
+import './js/get-posts';
+import './js/drag-and-drop';
 import './js/carousel';
-import './js/getFormData';
-import './js/setSystemDate';
+import './js/show-news-section';
+import './js/get-form-data';
+import './js/set-system-date';

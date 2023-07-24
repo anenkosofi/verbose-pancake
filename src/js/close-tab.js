@@ -4,6 +4,8 @@ const modal = document.querySelector('.modal');
 let confirmTimer = null;
 let closeTabTimer = null;
 
+startTimerAndAskConfirmation();
+
 function startTimerAndAskConfirmation() {
   confirmTimer = setTimeout(function () {
     const markup = `<p class="modal__description">Are you still here?</p>
@@ -37,8 +39,6 @@ document.addEventListener('mousemove', function () {
 });
 
 document.addEventListener('keydown', function () {
-  clearTimeout(timconfirmTimerer);
+  clearTimeout(confirmTimer);
   startTimerAndAskConfirmation();
 });
-
-startTimerAndAskConfirmation();
