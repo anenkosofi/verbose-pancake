@@ -13,9 +13,9 @@
    `npm start`
 
 4. Once the server is up and running, open your web browser and visit the
-   [http://localhost:1234](http://localhost:1234) to access the website:
+   [http://localhost:1234](http://localhost:1234) to access the website
 
-5. Explore the website and interact with the various sections:
+5. Explore the website and interact with the various sections
 
 ## List of Technologies
 
@@ -113,3 +113,10 @@ special animation and a discount offer displayed for 5 seconds.
 
 The footer contains links to the website's social media profiles. Additionally,
 the copyright year automatically updates to the current year.
+
+### 12. Dran and Drop:
+
+The Drag and Drop feature allows users to effortlessly interact with various
+elements by simply dragging them and dropping them into desired locations. This
+intuitive functionality enhances user experience and streamlines their workflow,
+making it easier to manage and manipulate items within the website.
