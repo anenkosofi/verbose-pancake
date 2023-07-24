@@ -97,6 +97,7 @@ function showGreetingAnimation() {
   setTimeout(() => {
     backdrop.classList.add('is-hidden');
     document.body.style.overflow = 'visible';
+    modal.innerHTML = '';
   }, 5000);
 }
 

@@ -21,7 +21,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 806px;
+  width: 650px;
   padding: 48px 20px;
   background-color: $white;
   opacity: 1;
@@ -42,5 +42,13 @@
 
   &__description {
     text-align: center;
+  }
+
+  &__button {
+    width: 180px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 32px;
+    text-transform: uppercase;
   }
 }

@@ -1,5 +1,8 @@
 .testimonials {
   padding: 133px 0 245px;
+  background: url('../assets/interior.svg'), linear-gradient($white, $white);
+  background-repeat: no-repeat;
+  background-position: top -60px left;
 
   &__container {
     display: flex;
@@ -69,16 +72,18 @@
 
   &__comments {
     width: 100%;
+    padding: 36px 64px;
+    overflow: hidden;
   }
 
   &__list {
     display: flex;
-    justify-content: space-between;
   }
 
   &__item {
     position: relative;
-    width: 570px;
+    flex-shrink: 0;
+    width: 560px;
     padding: 41px 38px 60px 99px;
     background-color: $white;
     border-radius: 70px 0px;

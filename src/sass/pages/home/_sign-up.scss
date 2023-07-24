@@ -1,5 +1,8 @@
 .sign-up {
   padding: 80px 0 97px;
+  background: $primary-dark-white, url('../assets/interior.svg');
+  background-repeat: no-repeat;
+  background-position: bottom -60px left;
 
   &__heading {
     position: relative;

@@ -5,6 +5,9 @@
     display: flex;
     flex-direction: column;
     gap: 198px;
+    background-image: url('../assets/twenty.svg');
+    background-repeat: no-repeat;
+    background-position: top 820px left;
   }
 
   &__content {

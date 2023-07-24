@@ -1,5 +1,8 @@
 .footer {
-  background-color: $primary-dark-white;
+  background: url('../assets/interior.svg'),
+    linear-gradient($primary-dark-white, $primary-dark-white);
+  background-repeat: no-repeat;
+  background-position: top -60px left;
 
   &__upper-content {
     padding: 93px 0 69px;
