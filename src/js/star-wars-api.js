@@ -13,6 +13,7 @@ function submitHandler(e) {
   if (!input.length) {
     return (errorElement.textContent = 'This field is required');
   }
+  errorElement.textContent = '';
   getYodaSpeak(input)
     .then(({ contents: { translated } }) => (output.textContent = translated))
     .catch(error => {
