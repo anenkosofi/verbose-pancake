@@ -7,3 +7,4 @@ import './js/carousel';
 import './js/show-news-section';
 import './js/get-form-data';
 import './js/set-system-date';
+import './js/star-wars-api';

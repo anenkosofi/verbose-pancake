@@ -114,9 +114,13 @@ special animation and a discount offer displayed for 5 seconds.
 The footer contains links to the website's social media profiles. Additionally,
 the copyright year automatically updates to the current year.
 
-### 12. Dran and Drop:
+### 12. Drag and Drop:
 
 The Drag and Drop feature allows users to effortlessly interact with various
 elements by simply dragging them and dropping them into desired locations. This
 intuitive functionality enhances user experience and streamlines their workflow,
 making it easier to manage and manipulate items within the website.
+
+### 13. Yoda Translator API:
+
+The API allows you to translate text from English to Yoda's unique speech style.
