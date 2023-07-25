@@ -37,12 +37,12 @@
 
 ## Features
 
-### 1. Responsive and Cross-Browser Compatibility:
+### 1. Cross-Browser Compatibility:
 
-The website is fully responsive and works seamlessly across different devices
-and screen sizes. It has been thoroughly tested on popular web browsers like
-Google Chrome, Mozilla Firefox, Opera, and Microsoft Edge to ensure a consistent
-experience for all users.
+The website works seamlessly across different devices and screen sizes. It has
+been thoroughly tested on popular web browsers like Google Chrome, Mozilla
+Firefox, Opera, and Microsoft Edge to ensure a consistent experience for all
+users.
 
 ### 2. BEM Methodology:
 
