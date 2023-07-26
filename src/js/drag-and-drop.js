@@ -1,3 +1,5 @@
+const lines = document.querySelectorAll('.line');
+
 document.addEventListener('DOMContentLoaded', function () {
   const items = document.querySelectorAll('.work__item');
   let isDragging = false;
@@ -13,6 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
       initialLeft = item.offsetLeft;
       initialTop = item.offsetTop;
+
+      Array.from(lines).map(item => (item.style.opacity = 0));
     });
 
     item.addEventListener('mousemove', e => {

@@ -2,6 +2,7 @@ import './js/show-loader';
 import './js/close-tab';
 import './js/progress-bar';
 import './js/get-posts';
+import './js/show-completed-work';
 import './js/drag-and-drop';
 import './js/carousel';
 import './js/show-news-section';
